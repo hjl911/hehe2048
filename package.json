@@ -1,0 +1,11 @@
+{
+  "name": "hehe-weixin-2048",
+  "version": "0.1.0",
+  "private": true,
+  "description": "原生微信 2048 小游戏与共享代码浏览器预览",
+  "scripts": {
+    "start": "node tools/serve.js",
+    "test": "node --test tests/*.test.js",
+    "pack": "node tools/pack.js"
+  }
+}

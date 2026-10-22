@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fbf7f1">
+  <title>合合2048 · 试玩</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #ede8df; color: #393a34; font-family: system-ui, sans-serif; height: 100dvh; display: grid; place-items: center; overflow: hidden; }
+    main { position: relative; width: min(100vw, 430px); height: min(100dvh, 900px); background: #fbf7f1; box-shadow: 0 24px 80px #4d473024; }
+    canvas { width: 100%; height: 100%; display: block; touch-action: none; outline: none; }
+    @media (min-width: 600px) { main { border-radius: 28px; overflow: hidden; } }
+    .sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <canvas id="game" tabindex="0" aria-label="2048 游戏。方向键或 WASD 移动，U 撤回，H 查看玩法，R 重新开始。"></canvas>
+    <p class="sr" id="status" aria-live="polite"></p>
+  </main>
+  <script src="../minigame/src/engine.js"></script>
+  <script src="../minigame/src/app.js"></script>
+  <script src="../preview/browser.js"></script>
+</body>
+</html>

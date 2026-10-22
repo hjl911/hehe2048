@@ -1,0 +1,20 @@
+{
+  "description": "合合2048 · 原生 JavaScript + Canvas 2D 微信小游戏（appid 来自本机测试号，提审上传前请换成正式小游戏 AppID）",
+  "setting": {
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "uglifyFileName": false,
+    "enhance": true,
+    "packNpmRelationList": [],
+    "babelSetting": { "ignore": [], "disablePlugins": [], "outputPath": "" },
+    "useCompilerPlugins": false
+  },
+  "compileType": "game",
+  "simulatorPluginLibVersion": {},
+  "packOptions": { "ignore": [], "include": [] },
+  "isGameTourist": false,
+  "appid": "wx5aae7f36d4355ec0",
+  "projectname": "合合2048",
+  "editorSetting": {}
+}
